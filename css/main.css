@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+.header {
+
+}
+.nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #ffffff;
+    position: fixed; 
+    width: 100%;
+}
+.nav-header {
+    padding-left: 80px;
+    color: #335576;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding-right: 80px;
+}
+.nav-list_item {
+    
+}
+.nav-list-link {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.hero-section {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+.hero-section_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 28%;
+}
+.hero_header {
+    color: #335576;
+}
+.hero_p {
+    color: #335576;
+}
+.hero-section_right {
+    display: flex;
+    justify-content: right;
+    width: 50%;
+}
+.get-started-button {
+    width: 25%;
+    background-color: #db7a4e;
+    color: #ffffff;
+    border-radius: 15px;
+    border-color: #db7a4e;
+    height: 30px;
+    box-shadow: none;
+    margin-top: 10px;
+    
+}
+.hero_image {
+    height: 450px;
+    width: 600px
+}
+.recommendations_header {
+    color: #335576;
+    text-align: left;
+    padding-left: 140px;
+}
+.card_link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.recommendations-section {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.recommendations_container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.card-container {
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    height: 440px;
+    width: 330px;
+    background-size: cover;
+    position: relative;
+}
+.card_name {
+    color: #ffffff;
+}
+.footer {
+    background-color: #FEFAF5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.footer_container {
+    display: flex;
+    flex-direction: column;
+}
+.footer_heading {
+    color: #335576;
+}
+.footer_text_one {
+    color: #db7a4e;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.footer_text_two {
+    color: #335576;
+    margin-top: 10px;
+}
+.span-one {
+    padding-left: 140px;
+}
+.span-two {
+    padding-left: 80px;
+}
+.social-media-icon {
+    width: auto;
+    height: 30px;
+    padding-top: 25px;
+    padding-right: 30px;
+}
