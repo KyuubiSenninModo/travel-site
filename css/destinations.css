@@ -1,9 +1,3 @@
-body {
-    margin: 0;
-}
-.header {
-
-}
 .nav {
     display: flex;
     align-items: baseline;
@@ -29,77 +23,73 @@ body {
     text-decoration: none;
     color: black;
 }
-.hero-section {
-    background-color: #FEFAF5;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 80px 0;
+.main-iceland {
+height: 55vw;
+background-image: url(../assets/images/iceland.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
-.hero-section_left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    width: 28%;
+.main-greece {
+height: 55vw;
+background-image: url(../assets/images/greece.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
-.hero_header {
-    color: #335576;
+.main-hawaii {
+height: 55vw;
+background-image: url(../assets/images/hawaii.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
-.hero_p {
-    color: #335576;
-}
-.hero-section_right {
-    display: flex;
-    justify-content: right;
-    width: 50%;
-}
-.get-started-button {
-    width: 25%;
-    background-color: #db7a4e;
+.main_header {
+    margin: 0;
+    padding-top: 230px;
+    padding-left: 180px;
+    font-size: 90px;
     color: #ffffff;
-    border-radius: 15px;
-    border-color: #db7a4e;
-    height: 30px;
-    box-shadow: none;
-    margin-top: 10px;
-    
 }
-.hero_image {
-    height: 450px;
-    width: 600px
-}
-.recommendations_header {
-    color: #335576;
-    text-align: left;
-    padding-left: 140px;
-}
-.card-link {
-    display: block;
-    width: 330px;
-    height: 440px;
-}
-.recommendations-section {
-    padding-top: 20px;
-    padding-bottom: 100px;
-}
-.recommendations_container {
+.card-box {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 40px;
+    padding-top: 90px;
+    padding-bottom: 130px;
+    
 }
 .card-container {
     border-radius: 5px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-color: #ffffff;
     height: 440px;
     width: 330px;
-    background-size: cover;
+    box-shadow: none;
+    background-color: #ffffff;
     position: relative;
+    
 }
-.card_name {
-    color: #ffffff;
-    position: absolute;
-    top: 375px;
-    left: 220px;
+.card_day {
+    text-align: center;
+    border-bottom: 2px solid black;
+    position: relative;
+    width: 90%;
+    left: 20px;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.list_item {
+    background-color: #FEFAF5;
+    width: 90%;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    right: 20px;
 }
 .footer {
     background-color: #FEFAF5;
@@ -141,4 +131,3 @@ body {
     border-bottom: 3px solid #db7a4e;
     padding-bottom: 10px;
 }
-
